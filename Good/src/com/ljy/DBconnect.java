@@ -40,7 +40,7 @@ public class DBconnect {
     {
         Class.forName("oracle.jdbc.driver.OracleDriver");// 加载Oracle驱动程序
         System.out.println("开始尝试连接数据库！");
-        String url = "jdbc:oracle:" + "thin:@132.108.200.19:1521:dbsch";// 127.0.0.1是本机地址，XE是精简版Oracle的默认数据库名
+        String url = "";// 127.0.0.1是本机地址，XE是精简版Oracle的默认数据库名
         System.out.println(url);
         String user = "test";// 用户名,系统默认的账户名
         String password = "Aa123456";// 你安装时选设置的密码
